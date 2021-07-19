@@ -6,6 +6,7 @@
 
 body{
   margin:20px;
+  line-height:30px;
 
 }
 a {
@@ -15,16 +16,19 @@ a {
 
 img
 {
-  border-radius: 30px;
+  border-radius: 15px;
   width:70%;
   display:block;
   margin:auto;
+  padding: 40px;
 }
 
 p
 {
   text-indent: 15px;
 }
+
+
 
 #grid{
   display:grid;
@@ -73,6 +77,10 @@ h1 {
   padding: 30px;
   margin-left: : 10px;
   margin-right: : 10px;
+}
+.link{
+  background: #D9FCDB;
+  color: blue;
 }
 ol{
   border-right:1px solid gray;
