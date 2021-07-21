@@ -237,16 +237,17 @@ ul, ol, li { list-style:none; margin:0; padding:0; }
   font-weight: bold;
 }
 
-ul.myMenu {}
+ul.myMenu {z-index:9999;  }
 ul.myMenu > li { display:inline-block; width:120px; padding:20px 40px; background:#eee;     border:1px solid #eee; text-align:center; position:relative;
   background-color: #F0FFFF;
   -webkit-transition:-webkit-transform 1s;
-  transition: background-color 0.7s;}
+  transition: background-color 0.7s;
+  z-index:9999;}
 ul.myMenu > li:hover { background:#BBBBBB; color:black; }
 ul.myMenu > li ul.submenu { display:none; position:absolute; top:60px; left:0; color:black; }
 ul.myMenu > li:hover ul.submenu { display:block; }
 ul.myMenu > li ul.submenu > li { display:inline-block; width:110px; padding:20px 40px; background:#eee; border:2px solid #eee; text-align:center; font-weight: normal;}
-ul.myMenu > li ul.submenu > li:hover { background:#CB0D36; color:white;}
+ul.myMenu > li ul.submenu > li:hover { background:#CB0D36; color:white; }
 
 /*
 background:linear-gradient(to bottom, #e8ecf0, #dbdfe3)
